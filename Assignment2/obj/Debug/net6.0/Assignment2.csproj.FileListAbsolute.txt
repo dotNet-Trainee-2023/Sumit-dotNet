@@ -1,0 +1,14 @@
+C:\Users\sumit.tamrakar\source\repos\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sumit.tamrakar\source\repos\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.AssemblyInfoInputs.cache
+C:\Users\sumit.tamrakar\source\repos\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.AssemblyInfo.cs
+C:\Users\sumit.tamrakar\source\repos\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.csproj.CoreCompileInputs.cache
+C:\Users\sumit.tamrakar\source\repos\Assignment2\Assignment2\bin\Debug\net6.0\Assignment2.exe
+C:\Users\sumit.tamrakar\source\repos\Assignment2\Assignment2\bin\Debug\net6.0\Assignment2.deps.json
+C:\Users\sumit.tamrakar\source\repos\Assignment2\Assignment2\bin\Debug\net6.0\Assignment2.runtimeconfig.json
+C:\Users\sumit.tamrakar\source\repos\Assignment2\Assignment2\bin\Debug\net6.0\Assignment2.dll
+C:\Users\sumit.tamrakar\source\repos\Assignment2\Assignment2\bin\Debug\net6.0\Assignment2.pdb
+C:\Users\sumit.tamrakar\source\repos\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.dll
+C:\Users\sumit.tamrakar\source\repos\Assignment2\Assignment2\obj\Debug\net6.0\refint\Assignment2.dll
+C:\Users\sumit.tamrakar\source\repos\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.pdb
+C:\Users\sumit.tamrakar\source\repos\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.genruntimeconfig.cache
+C:\Users\sumit.tamrakar\source\repos\Assignment2\Assignment2\obj\Debug\net6.0\ref\Assignment2.dll
