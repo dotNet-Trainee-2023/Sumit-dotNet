@@ -3,7 +3,7 @@
 1. Read the employees.csv file and extract the data.
 	- Create Employee class with the attribute from the csv file.
 	- Read the csv file and create a List of Employees objects.
-		- List<Employee>
+		- List/<Employee/>
 
 2. Do all these using LINQ:
 	- Group the employees by their department.
