@@ -1,0 +1,49 @@
+﻿@model List<Employee>
+
+@{
+}
+
+<h1>Employee list</h1>
+
+<a asp-action="Create" class="btn btn-primary">Add employee</a>
+
+<table class="table table-bordered">
+	<tr>
+		<th>ID</th>
+		<th>Name</th>
+		<th>Department</th>
+		<th>Position</th>
+		<th>Salary</th>
+	</tr>
+
+	@foreach (Employee employee in Model)
+	{
+		<tr>
+			<td>@employee.id</td>
+			<td>@employee.Name</td>
+			<td>@employee.Department</td>
+			<td>@employee.Position</td>
+			<td>@employee.Salary</td>
+			<td>
+				<a class="btn btn-success" asp-action="Edit" asp-route-index="@employee.id">Edit</a>
+				<a class="btn btn-danger deleteBtn" data-id="@employee.id" asp-action="Delete" asp-route-id="@employee.id">Delete</a>
+			</td>
+		</tr>
+	}
+</table>
+
+@section Scripts {
+	<script>
+		$(".deleteBtn").on("click", function (e) {
+			e.preventDefault();
+			const id = $(this).attr("data-id");
+			$.ajax({
+				url: "/Employee/Delete/" + id,
+				method: "POST",
+				success: function () {
+					location.href = '/Employee'
+				}
+			});
+		})
+	</script>
+}
